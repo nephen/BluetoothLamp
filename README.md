@@ -9,16 +9,16 @@
 ```sh
 ~ $ cd ~
 ~ $ git clone https://github.com/nephen/BluetoothLamp.git
-# => 开发贡献请先建立独立的分支，稳定后合并
+# =>开发贡献请先建立独立的分支，稳定后合并
 ~ $ git checkout -b my-new-feature
 ~ $ git commit -am 'Add some feature'
 ~ $ git push origin my-new-feature
-# => 合并分支
+# =>合并分支
 ~ $ git checkout master
 ~ $ git merge my-new-feature
 # =>解决冲突后提交到主分支
 ~ $ git push origin master
-# => 删除分支
+# =>删除分支
 ~ $ git branch -d my-new-feature
 ```
 
