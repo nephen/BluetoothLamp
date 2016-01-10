@@ -18,7 +18,7 @@
 ##APP    
 【蓝牙透传】APP，包括Android和iOS版本.      
 
- ##联系方式
+##联系方式
 官方网站：http://www.t-firefly.com      
 维基教程：http://wiki.t-firefly.com/index.php/FireBLE     
 开发者社区：http://developer.t-firefly.com     
