@@ -16,6 +16,8 @@
 # => 合并分支
 ~ $ git checkout master
 ~ $ git merge my-new-feature
+# =>解决冲突后提交到主分支
+~ $ git push origin master
 ```
 
 更多请参考http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/
