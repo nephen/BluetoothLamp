@@ -1,0 +1,16 @@
+.\obj\uart_example.o: ..\src\uart_example.c
+.\obj\uart_example.o: ..\..\src\driver\uart.h
+.\obj\uart_example.o: ..\src\driver_config.h
+.\obj\uart_example.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\obj\uart_example.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
+.\obj\uart_example.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\obj\uart_example.o: ..\..\src\cmsis\driver_QN9020.h
+.\obj\uart_example.o: ..\..\src\cmsis\QN9020.h
+.\obj\uart_example.o: ..\..\src\cmsis\core_cm0.h
+.\obj\uart_example.o: ..\..\src\cmsis\core_cmInstr.h
+.\obj\uart_example.o: ..\..\src\cmsis\core_cmFunc.h
+.\obj\uart_example.o: ..\..\src\driver\syscon.h
+.\obj\uart_example.o: ..\..\src\driver\sleep.h
+.\obj\uart_example.o: ..\..\src\driver\gpio.h
+.\obj\uart_example.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\obj\uart_example.o: ..\src\system.h
