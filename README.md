@@ -7,15 +7,18 @@
 ##源码获取及贡献
 
 >```sh
-># => Fork it (http://www.github.com/nephen/BluetoothLamp)
 >~ $ cd ~
->~ $ git clone https://github.com/your-github-name/BluetoothLamp.git
+>~ $ git clone https://github.com/nephen/BluetoothLamp.git
 ># => 开发贡献请先建立独立的分支，稳定后合并
 >~ $ git checkout -b my-new-feature
 >~ $ git commit -am 'Add some feature'
 >~ $ git push origin my-new-feature
-># => Create new Pull Request
+># => 合并分支
+>~ $ git checkout master
+>~ $ git merge my-new-feature
 >```
+
+更多请参考http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/
 
 ##说明  
 此目录包含FireBLE低功耗开源平台技术案例【蓝牙透传】的固件和APP，通过【蓝牙透传】APP可以控制FireBLE低功耗开源平台或FS_QN9021低功耗蓝牙模组，功能包括：UART、GPIO、SPI、PWM等等     
