@@ -6,17 +6,17 @@
 
 ##源码获取及贡献
 
->```sh
->~ $ cd ~
->~ $ git clone https://github.com/nephen/BluetoothLamp.git
-># => 开发贡献请先建立独立的分支，稳定后合并
->~ $ git checkout -b my-new-feature
->~ $ git commit -am 'Add some feature'
->~ $ git push origin my-new-feature
-># => 合并分支
->~ $ git checkout master
->~ $ git merge my-new-feature
->```
+```sh
+~ $ cd ~
+~ $ git clone https://github.com/nephen/BluetoothLamp.git
+# => 开发贡献请先建立独立的分支，稳定后合并
+~ $ git checkout -b my-new-feature
+~ $ git commit -am 'Add some feature'
+~ $ git push origin my-new-feature
+# => 合并分支
+~ $ git checkout master
+~ $ git merge my-new-feature
+```
 
 更多请参考http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/
 
