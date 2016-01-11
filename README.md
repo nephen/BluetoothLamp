@@ -2,7 +2,7 @@
 [![Gitter](https://badges.gitter.im/nephen/BluetoothLamp.svg)](https://gitter.im/nephen/BluetoothLamp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ##环境搭建
-开发该蓝牙模块需先构建编译环境，Linux(ubuntu15.10)下环境搭建请查看这篇[博文](http://www.nephen.com/2016/01/BLE%E6%A0%B8%E5%BF%83%E6%A8%A1%E5%9D%97FS-QN9021%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/)，Windows下略同。
+开发该蓝牙模块需先构建编译环境，Linux(ubuntu15.10)下环境搭建请查看这篇[博文](http://www.nephen.com/2016/01/BLE%E6%A0%B8%E5%BF%83%E6%A8%A1%E5%9D%97FS-QN9021%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91/#%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)，Windows下略同。
 
 ##源码获取及贡献
 
