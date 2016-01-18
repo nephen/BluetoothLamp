@@ -2,7 +2,7 @@ Dependencies for Project 'firefly_passthrough', Target 'passthrough': (DO NOT MO
 F (..\..\src\startup\keil\startup.s)(0x55B062B6)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020--pd "__UVISION_VERSION SETA 517"-o .\obj\startup.o --depend .\obj\startup.d)
 F (..\..\src\main\app_main.c)(0x55B1F0F2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\app_main.o --omf_browse .\obj\app_main.crf --depend .\obj\app_main.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\fw\ble.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
@@ -94,7 +94,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\driver\syscon.h)(0x55545186)
 I (..\..\src\driver\uart.h)(0x55DA7CD2)
@@ -177,7 +177,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -257,7 +257,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -341,7 +341,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -416,7 +416,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -490,7 +490,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -567,7 +567,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -644,7 +644,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -721,7 +721,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -795,7 +795,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -871,7 +871,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -945,7 +945,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -1019,7 +1019,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -1093,7 +1093,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -1167,7 +1167,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -1241,7 +1241,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -1315,7 +1315,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -1389,7 +1389,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -1469,7 +1469,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -1543,7 +1543,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -1610,7 +1610,7 @@ I (..\src\fireble\fireble_common.h)(0x55B832A4)
 I (..\src\fireble\profile\fireble_task.h)(0x5554518E)
 I (..\src\fireble\app\app_fireble_task.h)(0x55545190)
 F (..\..\src\profiles\prf_utils.c)(0x5624B9B8)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\prf_utils.o --omf_browse .\obj\prf_utils.crf --depend .\obj\prf_utils.d)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
@@ -1661,7 +1661,7 @@ I (..\src\fireble\profile\fireble.h)(0x55D68DD4)
 I (..\src\fireble\fireble_common.h)(0x55B832A4)
 I (..\src\fireble\profile\fireble_task.h)(0x5554518E)
 F (..\..\src\profiles\qpp\qpps\qpps.c)(0x55FCC4F0)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\qpps.o --omf_browse .\obj\qpps.crf --depend .\obj\qpps.d)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\fw\gap.h)(0x55545186)
 I (..\..\src\fw\ke_task.h)(0x55545186)
@@ -1707,7 +1707,7 @@ I (..\..\src\profiles\qpp\qpps\qpps.h)(0x55DD2FAC)
 I (..\..\src\profiles\qpp\qpp_common.h)(0x55FCC4F0)
 I (..\..\src\profiles\qpp\qpps\qpps_task.h)(0x55D68DD4)
 F (..\..\src\profiles\qpp\qpps\qpps_task.c)(0x562466D4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\qpps_task.o --omf_browse .\obj\qpps_task.crf --depend .\obj\qpps_task.d)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\fw\gap.h)(0x55545186)
 I (..\..\src\fw\ke_task.h)(0x55545186)
@@ -1753,7 +1753,7 @@ I (..\..\src\profiles\qpp\qpp_common.h)(0x55FCC4F0)
 I (..\..\src\profiles\qpp\qpps\qpps_task.h)(0x55D68DD4)
 I (..\..\src\fw\ke_mem.h)(0x55545186)
 F (..\..\src\profiles\dis\diss\diss.c)(0x55545184)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\diss.o --omf_browse .\obj\diss.crf --depend .\obj\diss.d)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\fw\atts_util.h)(0x55545186)
 I (..\..\src\fw\atts.h)(0x55545186)
@@ -1797,7 +1797,7 @@ I (..\..\src\profiles\prf_types.h)(0x55545180)
 I (..\..\src\profiles\dis\diss\diss.h)(0x55545182)
 I (..\..\src\profiles\dis\diss\diss_task.h)(0x55545182)
 F (..\..\src\profiles\dis\diss\diss_task.c)(0x55545182)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\diss_task.o --omf_browse .\obj\diss_task.crf --depend .\obj\diss_task.d)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\fw\gap.h)(0x55545186)
 I (..\..\src\fw\ke_task.h)(0x55545186)
@@ -1852,7 +1852,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\driver\syscon.h)(0x55545186)
 I (..\..\src\driver\sleep.h)(0x55545188)
@@ -1869,7 +1869,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\driver\sleep.h)(0x55545188)
 I (..\..\src\driver\syscon.h)(0x55545186)
@@ -1885,7 +1885,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\driver\syscon.h)(0x55545186)
 I (..\..\src\driver\gpio.h)(0x55545188)
@@ -1964,7 +1964,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\lib\lib.h)(0x55545184)
 I (..\..\src\app\app_env.h)(0x5554518E)
@@ -2043,7 +2043,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\driver\sleep.h)(0x55545188)
 I (..\..\src\driver\syscon.h)(0x55545186)
@@ -2060,7 +2060,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\driver\timer.h)(0x55545186)
 I (..\..\src\driver\sleep.h)(0x55545188)
@@ -2078,7 +2078,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\driver\syscon.h)(0x55545186)
 F (..\..\src\driver\serialflash.c)(0x55545188)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\serialflash.o --omf_browse .\obj\serialflash.crf --depend .\obj\serialflash.d)
@@ -2093,7 +2093,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\driver\syscon.h)(0x55545186)
 F (..\src\usr_spi.c)(0x55FCBB8C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\usr_spi.o --omf_browse .\obj\usr_spi.crf --depend .\obj\usr_spi.d)
@@ -2109,7 +2109,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\driver\syscon.h)(0x55545186)
 I (..\..\src\driver\spi.h)(0x55DE7CA8)
@@ -2127,7 +2127,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\driver\syscon.h)(0x55545186)
 I (..\..\src\driver\sleep.h)(0x55545188)
@@ -2146,7 +2146,7 @@ I (..\..\src\cmsis\core_cm0.h)(0x55545188)
 I (..\..\src\cmsis\core_cmInstr.h)(0x55545188)
 I (..\..\src\cmsis\core_cmFunc.h)(0x55545188)
 I (..\..\src\fw\fw_func_addr.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\qnevb\led.h)(0x5554517E)
 F (..\src\fireble\app\app_fireble.c)(0x55545190)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\app_fireble.o --omf_browse .\obj\app_fireble.crf --depend .\obj\app_fireble.d)
@@ -2157,7 +2157,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -2231,7 +2231,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
 I (..\..\src\fw\co_bt.h)(0x55545186)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB2B76)
 I (..\..\src\fw\co_error.h)(0x55545186)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\app\app_sys.h)(0x5554518E)
 I (..\..\src\app\gap\app_gap.h)(0x5554518C)
@@ -2298,7 +2298,7 @@ I (..\src\fireble\fireble_common.h)(0x55B832A4)
 I (..\src\fireble\profile\fireble_task.h)(0x5554518E)
 I (..\src\fireble\app\app_fireble_task.h)(0x55545190)
 F (..\src\fireble\profile\fireble.c)(0x55545190)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\fireble.o --omf_browse .\obj\fireble.crf --depend .\obj\fireble.d)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\fw\gap.h)(0x55545186)
 I (..\..\src\fw\ke_task.h)(0x55545186)
@@ -2344,7 +2344,7 @@ I (..\src\fireble\profile\fireble.h)(0x55D68DD4)
 I (..\src\fireble\fireble_common.h)(0x55B832A4)
 I (..\src\fireble\profile\fireble_task.h)(0x5554518E)
 F (..\src\fireble\profile\fireble_task.c)(0x55FCC4F0)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\fireble_task.o --omf_browse .\obj\fireble_task.crf --depend .\obj\fireble_task.d)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
 I (..\..\src\fw\gap.h)(0x55545186)
 I (..\..\src\fw\ke_task.h)(0x55545186)
@@ -2424,5 +2424,5 @@ I (..\..\src\app\otas\app_otas_task.h)(0x5554518A)
 I (..\src\fireble\app\app_fireble.h)(0x55545190)
 I (..\src\fireble\app\app_fireble_task.h)(0x55545190)
 F (..\..\src\retarget\retarget.c)(0x5554517E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\app\otas -I..\..\src\profiles\ota\otas -I..\src\fireble -I..\src\fireble\app -I..\src\fireble\profile -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517" -DCATCH_LOG-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
-I (..\..\src\app\app_config.h)(0x55DD2176)
+I (..\..\src\app\app_config.h)(0x5698ACA1)
 I (..\src\usr_config.h)(0x5628549A)
