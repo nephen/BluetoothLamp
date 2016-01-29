@@ -286,7 +286,7 @@ void app_task_msg_hdl(ke_msg_id_t const msgid, void const *param)
         }break;
 				case QPPS_DAVA_VAL_IND:
 							{
-									/// passthrough the data form client to com 
+									/// passthrough the data from client to com 
 									struct qpps_data_val_ind* par = (struct qpps_data_val_ind*)param;
 									
 								  if (par->length > 0)

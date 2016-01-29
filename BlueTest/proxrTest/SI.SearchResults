@@ -1,9 +1,0 @@
----- SMPM_SET_KE Matches (8 in 4 files) ----
-App_smp.c (src\app\smp): * @response  SMPM_SET_KEY_CFM
-App_smp.c (src\app\smp): *  The SMPM_SET_KEY_CFM is sent to the API with a simple status and the key code value for confirming
-App_smp.c (src\app\smp):    struct smpm_set_key_req *msg = KE_MSG_ALLOC(SMPM_SET_KEY_REQ, TASK_SMPM, TASK_APP,
-App_smp_task.c (src\app\smp): * @param[in] msgid     SMPM_SET_KEY_CFM
-App_smp_task.c (src\app\smp): *  This API is used by the SMPM to respond to the application to its SMPM_SET_KEY_REQ,
-App_task.c (src\app):    {SMPM_SET_KEY_CFM,                      (ke_msg_func_t) app_smpm_set_key_cfm_handler},
-Smpm_task.h (src\fw):    SMPM_SET_KEY_REQ = KE_FIRST_MSG(TASK_SMPM) + 2,
-Smpm_task.h (src\fw):    SMPM_SET_KEY_CFM = KE_FIRST_MSG(TASK_SMPM) + 3,
