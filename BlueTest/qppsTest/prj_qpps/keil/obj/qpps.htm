@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\obj\qpps.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\obj\qpps.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060061: Last Updated: Fri Jan 15 17:24:00 2016
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060061: Last Updated: Sat Jan 30 12:31:45 2016
 <BR><P>
 <H3>Maximum Stack Usage =        632 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -143,7 +143,7 @@ Global Symbols
 <P><STRONG><a name="[26]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
 <BR>[Address Reference Count : 1]<UL><LI> startup.o(.text)
 </UL>
-<P><STRONG><a name="[11b]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+<P><STRONG><a name="[11c]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
 
 <P><STRONG><a name="[6d]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
 <BR><BR>[Calls]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
@@ -153,15 +153,15 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
 </UL>
 
-<P><STRONG><a name="[11c]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+<P><STRONG><a name="[11d]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
 
-<P><STRONG><a name="[11d]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+<P><STRONG><a name="[11e]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
 
-<P><STRONG><a name="[11e]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+<P><STRONG><a name="[11f]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
 
-<P><STRONG><a name="[11f]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+<P><STRONG><a name="[120]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
 
-<P><STRONG><a name="[120]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+<P><STRONG><a name="[121]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
 
 <P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, startup.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
@@ -278,21 +278,21 @@ Global Symbols
 <P><STRONG><a name="[16]"></a>UART1_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup.o(RESET)
 </UL>
-<P><STRONG><a name="[104]"></a>__aeabi_lmul</STRONG> (Thumb, 166 bytes, Stack size 0 bytes, math.o(.text))
+<P><STRONG><a name="[105]"></a>__aeabi_lmul</STRONG> (Thumb, 166 bytes, Stack size 0 bytes, math.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lld_sleep_lpcycles_2_us
 </UL>
 
 <P><STRONG><a name="[a0]"></a>__aeabi_uldivmod</STRONG> (Thumb, 256 bytes, Stack size 0 bytes, math.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwble_slot_2_lpcycles
+<BR><BR>[Called By]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwble_slot_2_lpcycles
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
-<P><STRONG><a name="[121]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+<P><STRONG><a name="[122]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
 
 <P><STRONG><a name="[70]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = __aeabi_uidivmod
 </UL>
-<BR>[Called By]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_i_to_array
+<BR>[Called By]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_i_to_array
 <LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_event_adc_key_sample_cmp_handler
 <LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_set_usart_clk
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_set_timer_clk
@@ -303,7 +303,7 @@ Global Symbols
 <LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_idivmod
 </UL>
 
-<P><STRONG><a name="[122]"></a>__aeabi_idiv</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, idiv.o(.text), UNUSED)
+<P><STRONG><a name="[123]"></a>__aeabi_idiv</STRONG> (Thumb, 0 bytes, Stack size 16 bytes, idiv.o(.text), UNUSED)
 
 <P><STRONG><a name="[6f]"></a>__aeabi_idivmod</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, idiv.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = __aeabi_idivmod &rArr; __aeabi_uidivmod
@@ -313,24 +313,24 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gatt_notify_cmp_evt_handler
 </UL>
 
-<P><STRONG><a name="[dd]"></a>__aeabi_lasr</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, llsshr.o(.text))
+<P><STRONG><a name="[de]"></a>__aeabi_lasr</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, llsshr.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_lasr
 </UL>
-<BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atts_svc_create_db_ext
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atts_svc_create_db_ext
 </UL>
 
-<P><STRONG><a name="[123]"></a>_ll_sshift_r</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llsshr.o(.text), UNUSED)
+<P><STRONG><a name="[124]"></a>_ll_sshift_r</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, llsshr.o(.text), UNUSED)
 
-<P><STRONG><a name="[124]"></a>rand</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, rand.o(.text), UNUSED)
+<P><STRONG><a name="[125]"></a>rand</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, rand.o(.text), UNUSED)
 
-<P><STRONG><a name="[10f]"></a>srand</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, rand.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<P><STRONG><a name="[110]"></a>srand</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, rand.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
 </UL>
 
 <P><STRONG><a name="[9d]"></a>__aeabi_memcpy</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, memcpya.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smp_init
+<BR><BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smp_init
 <LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_set_service_uuid
-<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpm_set_key_req
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpm_set_key_req
 <LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_link_status_by_conhdl
 <LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init_local_smp_key
 <LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_bd_addr_by_conhdl
@@ -338,14 +338,15 @@ Global Symbols
 <LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_scan_rsp_data
 <LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_param_update_req
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_start_req
-<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atts_svc_create_db_ext
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atts_svc_create_db_ext
 <LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_create_db_req_handler
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gatt_write_cmd_ind_handler
-<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_data_send
-<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_tk_req_rsp
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_ltk_req_rsp
-<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_irk_req_rsp
-<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_chk_bd_addr_req_rsp
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_data_send
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_tk_req_rsp
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_ltk_req_rsp
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_irk_req_rsp
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_chk_bd_addr_req_rsp
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_devname_req
 <LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_ltk_req_ind_handler
 <LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_key_ind_handler
 <LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_irk_req_ind_handler
@@ -356,46 +357,46 @@ Global Symbols
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__nvds_wrtie
 </UL>
 
-<P><STRONG><a name="[d3]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smp_init
-<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_init
+<P><STRONG><a name="[d4]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smp_init
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_init
 <LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_create_db_req_handler
-<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_gatt_desc_register
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_gatt_desc_register
 </UL>
 
-<P><STRONG><a name="[125]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
+<P><STRONG><a name="[126]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memcpya.o(.text), UNUSED)
 
 <P><STRONG><a name="[72]"></a>__aeabi_memset</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 <BR><BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset$wrapper
 <LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
 </UL>
 
-<P><STRONG><a name="[126]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+<P><STRONG><a name="[127]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 
-<P><STRONG><a name="[127]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+<P><STRONG><a name="[128]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 
 <P><STRONG><a name="[71]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
 </UL>
 
-<P><STRONG><a name="[c6]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
+<P><STRONG><a name="[c7]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_link_status_by_conhdl
-<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
 </UL>
 
-<P><STRONG><a name="[128]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+<P><STRONG><a name="[129]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
 
 <P><STRONG><a name="[73]"></a>_memset$wrapper</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, memseta.o(.text), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
 </UL>
 
-<P><STRONG><a name="[10d]"></a>memcmp</STRONG> (Thumb, 26 bytes, Stack size 12 bytes, memcmp.o(.text))
+<P><STRONG><a name="[10e]"></a>memcmp</STRONG> (Thumb, 26 bytes, Stack size 12 bytes, memcmp.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = memcmp
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_restore_backup
+<BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_restore_backup
 </UL>
 
-<P><STRONG><a name="[d2]"></a>strcpy</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, strcpy.o(.text))
+<P><STRONG><a name="[d3]"></a>strcpy</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, strcpy.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_adv_data
 </UL>
 
@@ -424,7 +425,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
 </UL>
 
-<P><STRONG><a name="[129]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+<P><STRONG><a name="[12a]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
 
 <P><STRONG><a name="[77]"></a>__rt_ctype_table</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, ctype_o.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strtol
@@ -443,57 +444,57 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_strtoul
 </UL>
 
-<P><STRONG><a name="[12a]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+<P><STRONG><a name="[12b]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
 
-<P><STRONG><a name="[12b]"></a>__decompress1</STRONG> (Thumb, 86 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+<P><STRONG><a name="[12c]"></a>__decompress1</STRONG> (Thumb, 86 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
 
 <P><STRONG><a name="[7b]"></a>__rd_reg</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, math.o(REG_ACCESS_SECTION))
 <BR><BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_set_sysclk_src
-<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_busy
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_busy
 <LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER3_IRQHandler
 <LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER2_IRQHandler
 <LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER1_IRQHandler
 <LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER0_IRQHandler
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_timer_GetIntFlag
-<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_ble_wakeup
-<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
-<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_wakeup_config
-<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_sleep_allowed
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_ble_wakeup
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_wakeup_config
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_sleep_allowed
 <LI><a href="#[14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_RX_IRQHandler
 <LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_uart_GetIntFlag
 <LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_read
 <LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_clean_fifo
-<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_time
-<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fw_ble_sleep
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_time
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fw_ble_sleep
 <LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BLE_IRQHandler
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
 <LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llm_lld_data_ind_handler_new
 <LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_off
-<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_flash_id
+<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_flash_id
 </UL>
 
 <P><STRONG><a name="[7c]"></a>__wr_reg</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, math.o(REG_ACCESS_SECTION))
 <BR><BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_event_adc_key_sample_cmp_handler
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_init
 <LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_init
-<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_init
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_init
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
 <LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_timer_ClrIntFlag
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wdt_irq_clear
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wdt_wdt_SetLKR
-<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_post_process
-<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_wakeup_config
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_write_pin
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wdt_wdt_SetLKR
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_post_process
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_wakeup_config
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_write_pin
 <LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_uart_SetTXD
 <LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_uart_ClrIntFlag
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_init
-<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_time
-<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fw_ble_sleep
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_time
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fw_ble_sleep
 <LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BLE_IRQHandler
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sector_erase_flash_patch
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sector_erase_flash_patch
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
 <LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llm_lld_data_ind_handler_new
 <LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;power_on_flash
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;power_off_flash
@@ -501,36 +502,36 @@ Global Symbols
 
 <P><STRONG><a name="[7d]"></a>__wr_reg_with_msk</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, math.o(REG_ACCESS_SECTION))
 <BR><BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_32k_xtal_wakeup_timer
-<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_32k_xtal_switch_clk
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_32k_xtal_switch_clk
 <LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_event_adc_key_sample_cmp_handler
-<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep_restore
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep_restore
 <LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_set_sysclk_src
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_by_sleep_timer
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_init
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
-<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dc_dc_enable
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_by_sleep_timer
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_init
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dc_dc_enable
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
 <LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetADCCRWithMask
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_adc_SetADC1WithMask
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_adc_SetADC0WithMask
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_busy
-<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
-<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;restore_ble_setting
-<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR2WithMask
-<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR0WithMask
-<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_busy
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;restore_ble_setting
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR2WithMask
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR0WithMask
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
 <LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_IRQHandler
 <LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_tx_int_enable
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_rx_int_enable
 <LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;adc_init
-<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR1WithMask
-<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
-<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dp_dp_SetRegWithMask
-<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cal_cal_SetCAL1WithMask
-<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cal_cal_SetCAL0WithMask
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR1WithMask
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dp_dp_SetRegWithMask
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cal_cal_SetCAL1WithMask
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cal_cal_SetCAL0WithMask
 <LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;power_on_flash
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;power_off_flash
 </UL>
@@ -658,12 +659,13 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
 </UL>
 
-<P><STRONG><a name="[12c]"></a>__1printf$8</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
+<P><STRONG><a name="[12d]"></a>__1printf$8</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
 
 <P><STRONG><a name="[b4]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_err
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_test_send_data
 <LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_tk_req_ind_handler
 <LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_timeout_evt_handler
 <LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_sec_started_ind_handler
@@ -674,6 +676,7 @@ Global Symbols
 <LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_error_ind_handler
 <LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_data_send_cfm_handler
 <LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_data_ind_handler
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_cfg_indntf_ind_handler
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_key_process_timer_handler
 <LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_random_add_req_cmp_handler
 <LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_privacy_req_cmp_handler
@@ -692,8 +695,8 @@ Global Symbols
 <P><STRONG><a name="[b6]"></a>__ARM_common_switch8</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, app_gap_task.o(i.__ARM_common_switch8))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __ARM_common_switch8
 </UL>
-<BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
-<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_get
+<BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_get
 <LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_bond_req_cmp_ind_handler
 <LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llm_lld_data_ind_handler_new
 </UL>
@@ -704,7 +707,7 @@ Global Symbols
 <LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atoi
 </UL>
 
-<P><STRONG><a name="[12d]"></a>__rt_errno_addr</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, errno.o(i.__aeabi_errno_addr), UNUSED)
+<P><STRONG><a name="[12e]"></a>__rt_errno_addr</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, errno.o(i.__aeabi_errno_addr), UNUSED)
 
 <P><STRONG><a name="[96]"></a>__nvds_get</STRONG> (Thumb, 46 bytes, Stack size 24 bytes, lib.o(i.__nvds_get))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = __nvds_get &rArr; power_on_flash &rArr; is_flash_present &rArr; read_flash_id
@@ -713,17 +716,17 @@ Global Symbols
 <LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;power_on_flash
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;power_off_flash
 </UL>
-<BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smp_init
+<BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smp_init
 <LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_adv_data
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
 <LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__adc_calibrate
 </UL>
 
-<P><STRONG><a name="[12e]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+<P><STRONG><a name="[12f]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
 
-<P><STRONG><a name="[12f]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+<P><STRONG><a name="[130]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
 
-<P><STRONG><a name="[130]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+<P><STRONG><a name="[131]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
 
 <P><STRONG><a name="[a2]"></a>adc_clean_fifo</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, adc.o(i.adc_clean_fifo))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = adc_clean_fifo
@@ -777,7 +780,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[d0]"></a>app_clear_local_service_flag</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, app_util.o(i.app_clear_local_service_flag))
+<P><STRONG><a name="[d1]"></a>app_clear_local_service_flag</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, app_util.o(i.app_clear_local_service_flag))
 <BR><BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_create_db_cfm_handler
 </UL>
 
@@ -815,10 +818,10 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> usr_design.o(i.usr_init)
 </UL>
-<P><STRONG><a name="[c3]"></a>app_find_bonded_dev</STRONG> (Thumb, 50 bytes, Stack size 24 bytes, app_util.o(i.app_find_bonded_dev))
+<P><STRONG><a name="[c4]"></a>app_find_bonded_dev</STRONG> (Thumb, 50 bytes, Stack size 24 bytes, app_util.o(i.app_find_bonded_dev))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = app_find_bonded_dev
 </UL>
-<BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_lk_sec_status
+<BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_lk_sec_status
 <LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_ltk_req_ind_handler
 </UL>
 
@@ -850,6 +853,8 @@ Global Symbols
 <LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_intv_update_timer_handler
 <LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_button_timer_handler
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_key_process_timer_handler
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_mode_req_cmp_evt_handler
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_discon_cmp_evt_handler
 </UL>
 
 <P><STRONG><a name="[a8]"></a>app_gap_adv_stop_req</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, app_gap.o(i.app_gap_adv_stop_req))
@@ -892,12 +897,16 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[54]"></a>app_gap_discon_cmp_evt_handler</STRONG> (Thumb, 86 bytes, Stack size 32 bytes, app_gap_task.o(i.app_gap_discon_cmp_evt_handler))
+<P><STRONG><a name="[54]"></a>app_gap_discon_cmp_evt_handler</STRONG> (Thumb, 126 bytes, Stack size 32 bytes, app_gap_task.o(i.app_gap_discon_cmp_evt_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = app_gap_discon_cmp_evt_handler &rArr; app_task_msg_hdl &rArr; app_set_adv_data &rArr; __nvds_get &rArr; power_on_flash &rArr; is_flash_present &rArr; read_flash_id
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_link_status_by_conhdl
 <LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_bd_addr_by_conhdl
 <LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_enable_server_service
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_scan_rsp_data
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_adv_data
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_local_service_flag
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_start_req
 <LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_task_msg_hdl
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
@@ -944,7 +953,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[c0]"></a>app_gap_read_ver_req</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, app_gap.o(i.app_gap_read_ver_req))
+<P><STRONG><a name="[c1]"></a>app_gap_read_ver_req</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, app_gap.o(i.app_gap_read_ver_req))
 <BR><BR>[Called By]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_sec_req_cmp_evt_handler
 </UL>
 
@@ -971,10 +980,18 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[db]"></a>app_gap_set_bondable_mode_req</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, app_gap.o(i.app_gap_set_bondable_mode_req))
+<P><STRONG><a name="[dc]"></a>app_gap_set_bondable_mode_req</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, app_gap.o(i.app_gap_set_bondable_mode_req))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = app_gap_set_bondable_mode_req
 </UL>
 <BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpm_set_key_cfm_handler
+</UL>
+
+<P><STRONG><a name="[c0]"></a>app_gap_set_devname_req</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, app_gap.o(i.app_gap_set_devname_req))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = app_gap_set_devname_req
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_mode_req_cmp_evt_handler
 </UL>
 
 <P><STRONG><a name="[4d]"></a>app_gap_set_devname_req_cmp_evt_handler</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, app_gap_task.o(i.app_gap_set_devname_req_cmp_evt_handler))
@@ -985,10 +1002,15 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[52]"></a>app_gap_set_mode_req_cmp_evt_handler</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, app_gap_task.o(i.app_gap_set_mode_req_cmp_evt_handler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = app_gap_set_mode_req_cmp_evt_handler &rArr; app_task_msg_hdl &rArr; app_set_adv_data &rArr; __nvds_get &rArr; power_on_flash &rArr; is_flash_present &rArr; read_flash_id
+<P><STRONG><a name="[52]"></a>app_gap_set_mode_req_cmp_evt_handler</STRONG> (Thumb, 114 bytes, Stack size 24 bytes, app_gap_task.o(i.app_gap_set_mode_req_cmp_evt_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = app_gap_set_mode_req_cmp_evt_handler &rArr; app_task_msg_hdl &rArr; app_set_adv_data &rArr; __nvds_get &rArr; power_on_flash &rArr; is_flash_present &rArr; read_flash_id
 </UL>
-<BR>[Calls]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_task_msg_hdl
+<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_scan_rsp_data
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_adv_data
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_local_service_flag
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_start_req
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_task_msg_hdl
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_devname_req
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
@@ -1017,7 +1039,7 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = app_gap_set_sec_req_cmp_evt_handler &rArr; app_task_msg_hdl &rArr; app_set_adv_data &rArr; __nvds_get &rArr; power_on_flash &rArr; is_flash_present &rArr; read_flash_id
 </UL>
 <BR>[Calls]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_task_msg_hdl
-<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_read_ver_req
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_read_ver_req
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
@@ -1035,30 +1057,30 @@ Global Symbols
 <LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_discon_cmp_evt_handler
 </UL>
 
-<P><STRONG><a name="[d5]"></a>app_get_bond_nb</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, app_util.o(i.app_get_bond_nb))
+<P><STRONG><a name="[d6]"></a>app_get_bond_nb</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, app_util.o(i.app_get_bond_nb))
 <BR><BR>[Called By]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_irk_req_ind_handler
 </UL>
 
-<P><STRONG><a name="[d6]"></a>app_get_bond_status</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, app_util.o(i.app_get_bond_status))
+<P><STRONG><a name="[d7]"></a>app_get_bond_status</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, app_util.o(i.app_get_bond_status))
 <BR><BR>[Called By]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_irk_req_ind_handler
 </UL>
 
 <P><STRONG><a name="[b7]"></a>app_get_conhdl_by_idx</STRONG> (Thumb, 30 bytes, Stack size 4 bytes, app_util.o(i.app_get_conhdl_by_idx))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = app_get_conhdl_by_idx
 </UL>
-<BR>[Calls]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_link_status_by_idx
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_link_status_by_idx
 </UL>
 <BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_bond_req_ind_handler
 </UL>
 
-<P><STRONG><a name="[c1]"></a>app_get_link_status_by_idx</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, app_util.o(i.app_get_link_status_by_idx))
+<P><STRONG><a name="[c2]"></a>app_get_link_status_by_idx</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, app_util.o(i.app_get_link_status_by_idx))
 <BR><BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_conhdl_by_idx
 </UL>
 
-<P><STRONG><a name="[c2]"></a>app_get_lk_sec_status</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, app_util.o(i.app_get_lk_sec_status))
+<P><STRONG><a name="[c3]"></a>app_get_lk_sec_status</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, app_util.o(i.app_get_lk_sec_status))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = app_get_lk_sec_status &rArr; app_find_bonded_dev
 </UL>
-<BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_find_bonded_dev
+<BR>[Calls]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_find_bonded_dev
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_chk_bd_addr_req_ind_handler
 </UL>
@@ -1067,16 +1089,18 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_task_msg_hdl
 <LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_intv_update_timer_handler
 <LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_button_timer_handler
-<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_key_process_timer_handler
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_mode_req_cmp_evt_handler
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_discon_cmp_evt_handler
 </UL>
 
-<P><STRONG><a name="[d8]"></a>app_get_role</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, app_util.o(i.app_get_role))
+<P><STRONG><a name="[d9]"></a>app_get_role</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, app_util.o(i.app_get_role))
 <BR><BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_task_msg_hdl
 <LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_ltk_req_ind_handler
 </UL>
 
-<P><STRONG><a name="[c4]"></a>app_i_to_array</STRONG> (Thumb, 38 bytes, Stack size 24 bytes, app_util.o(i.app_i_to_array))
+<P><STRONG><a name="[c5]"></a>app_i_to_array</STRONG> (Thumb, 38 bytes, Stack size 24 bytes, app_util.o(i.app_i_to_array))
 <BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = app_i_to_array &rArr; __aeabi_uidivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
@@ -1084,16 +1108,16 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_tk_req_ind_handler
 </UL>
 
-<P><STRONG><a name="[c5]"></a>app_init</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, app_env.o(i.app_init))
+<P><STRONG><a name="[c6]"></a>app_init</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, app_env.o(i.app_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = app_init &rArr; app_smp_init &rArr; __nvds_get &rArr; power_on_flash &rArr; is_flash_present &rArr; read_flash_id
 </UL>
-<BR>[Calls]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_app_desc_register
-<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_uart_init
-<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smp_init
+<BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_app_desc_register
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_uart_init
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smp_init
 <LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_scan_rsp_data
 <LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_adv_data
 <LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_local_service_flag
-<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -1101,7 +1125,7 @@ Global Symbols
 <P><STRONG><a name="[bd]"></a>app_init_local_smp_key</STRONG> (Thumb, 22 bytes, Stack size 24 bytes, app_util.o(i.app_init_local_smp_key))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = app_init_local_smp_key &rArr; app_smpm_set_key_req
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpm_set_key_req
+<BR>[Calls]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpm_set_key_req
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_read_bdaddr_req_cmp_evt_handler
@@ -1110,13 +1134,13 @@ Global Symbols
 <P><STRONG><a name="[46]"></a>app_key_process_timer_handler</STRONG> (Thumb, 198 bytes, Stack size 32 bytes, joysticks.o(i.app_key_process_timer_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = app_key_process_timer_handler &rArr; app_set_adv_data &rArr; __nvds_get &rArr; power_on_flash &rArr; is_flash_present &rArr; read_flash_id
 </UL>
-<BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
+<BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
 <LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_scan_rsp_data
 <LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_adv_data
 <LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_local_service_flag
 <LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_stop_req
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_start_req
-<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_enable_interrupt
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_enable_interrupt
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
@@ -1133,16 +1157,17 @@ Global Symbols
 <P><STRONG><a name="[43]"></a>app_led_timer_handler</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, usr_design.o(i.app_led_timer_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = app_led_timer_handler &rArr; led_set &rArr; __ARM_common_switch8
 </UL>
-<BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
-<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_get
+<BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_get
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[64]"></a>app_qpps_cfg_indntf_ind_handler</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, app_qpps_task.o(i.app_qpps_cfg_indntf_ind_handler))
+<P><STRONG><a name="[64]"></a>app_qpps_cfg_indntf_ind_handler</STRONG> (Thumb, 148 bytes, Stack size 16 bytes, app_qpps_task.o(i.app_qpps_cfg_indntf_ind_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = app_qpps_cfg_indntf_ind_handler &rArr; app_test_send_data &rArr; app_qpps_data_send
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_bit_num
-<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_test_send_data
+<BR>[Calls]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_bit_num
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_test_send_data
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
@@ -1155,30 +1180,30 @@ Global Symbols
 <P><STRONG><a name="[66]"></a>app_qpps_create_db_cfm_handler</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, app_qpps_task.o(i.app_qpps_create_db_cfm_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = app_qpps_create_db_cfm_handler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_clear_local_service_flag
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_clear_local_service_flag
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[65]"></a>app_qpps_data_ind_handler</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, app_qpps_task.o(i.app_qpps_data_ind_handler))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = app_qpps_data_ind_handler &rArr; __2printf
+<P><STRONG><a name="[65]"></a>app_qpps_data_ind_handler</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, app_qpps_task.o(i.app_qpps_data_ind_handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = app_qpps_data_ind_handler &rArr; __2printf
 </UL>
 <BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[d1]"></a>app_qpps_data_send</STRONG> (Thumb, 52 bytes, Stack size 40 bytes, app_qpps.o(i.app_qpps_data_send))
+<P><STRONG><a name="[d2]"></a>app_qpps_data_send</STRONG> (Thumb, 52 bytes, Stack size 40 bytes, app_qpps.o(i.app_qpps_data_send))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = app_qpps_data_send
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
-<BR>[Called By]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_test_send_data
+<BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_test_send_data
 </UL>
 
-<P><STRONG><a name="[63]"></a>app_qpps_data_send_cfm_handler</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, app_qpps_task.o(i.app_qpps_data_send_cfm_handler))
+<P><STRONG><a name="[63]"></a>app_qpps_data_send_cfm_handler</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, app_qpps_task.o(i.app_qpps_data_send_cfm_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = app_qpps_data_send_cfm_handler &rArr; app_test_send_data &rArr; app_qpps_data_send
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_bit_num
-<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_test_send_data
+<BR>[Calls]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_bit_num
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_test_send_data
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
@@ -1203,20 +1228,22 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = app_set_adv_data &rArr; __nvds_get &rArr; power_on_flash &rArr; is_flash_present &rArr; read_flash_id
 </UL>
 <BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__nvds_get
-<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_task_msg_hdl
 <LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_intv_update_timer_handler
 <LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_button_timer_handler
-<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_key_process_timer_handler
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_mode_req_cmp_evt_handler
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_discon_cmp_evt_handler
 </UL>
 
 <P><STRONG><a name="[ba]"></a>app_set_link_status_by_conhdl</STRONG> (Thumb, 90 bytes, Stack size 16 bytes, app_util.o(i.app_set_link_status_by_conhdl))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = app_set_link_status_by_conhdl &rArr; app_get_bd_addr_by_conhdl
 </UL>
 <BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_bd_addr_by_conhdl
-<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_le_create_conn_req_cmp_evt_handler
@@ -1235,20 +1262,22 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_task_msg_hdl
 <LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_intv_update_timer_handler
 <LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_button_timer_handler
-<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_key_process_timer_handler
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_mode_req_cmp_evt_handler
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_discon_cmp_evt_handler
 </UL>
 
 <P><STRONG><a name="[5e]"></a>app_smpc_chk_bd_addr_req_ind_handler</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, app_smp_task.o(i.app_smpc_chk_bd_addr_req_ind_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = app_smpc_chk_bd_addr_req_ind_handler &rArr; app_smpc_chk_bd_addr_req_rsp
 </UL>
-<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_lk_sec_status
-<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_chk_bd_addr_req_rsp
+<BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_lk_sec_status
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_chk_bd_addr_req_rsp
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[d4]"></a>app_smpc_chk_bd_addr_req_rsp</STRONG> (Thumb, 56 bytes, Stack size 40 bytes, app_smp.o(i.app_smpc_chk_bd_addr_req_rsp))
+<P><STRONG><a name="[d5]"></a>app_smpc_chk_bd_addr_req_rsp</STRONG> (Thumb, 56 bytes, Stack size 40 bytes, app_smp.o(i.app_smpc_chk_bd_addr_req_rsp))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = app_smpc_chk_bd_addr_req_rsp
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
@@ -1259,15 +1288,15 @@ Global Symbols
 <P><STRONG><a name="[5d]"></a>app_smpc_irk_req_ind_handler</STRONG> (Thumb, 138 bytes, Stack size 24 bytes, app_smp_task.o(i.app_smpc_irk_req_ind_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = app_smpc_irk_req_ind_handler &rArr; app_smpc_irk_req_rsp
 </UL>
-<BR>[Calls]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_bond_status
-<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_bond_nb
-<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_irk_req_rsp
+<BR>[Calls]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_bond_status
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_bond_nb
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_irk_req_rsp
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[d7]"></a>app_smpc_irk_req_rsp</STRONG> (Thumb, 66 bytes, Stack size 40 bytes, app_smp.o(i.app_smpc_irk_req_rsp))
+<P><STRONG><a name="[d8]"></a>app_smpc_irk_req_rsp</STRONG> (Thumb, 66 bytes, Stack size 40 bytes, app_smp.o(i.app_smpc_irk_req_rsp))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = app_smpc_irk_req_rsp
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
@@ -1286,15 +1315,15 @@ Global Symbols
 <P><STRONG><a name="[5c]"></a>app_smpc_ltk_req_ind_handler</STRONG> (Thumb, 172 bytes, Stack size 48 bytes, app_smp_task.o(i.app_smpc_ltk_req_ind_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = app_smpc_ltk_req_ind_handler &rArr; app_smpc_ltk_req_rsp
 </UL>
-<BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_find_bonded_dev
-<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_role
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_ltk_req_rsp
+<BR>[Calls]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_find_bonded_dev
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_role
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_ltk_req_rsp
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[d9]"></a>app_smpc_ltk_req_rsp</STRONG> (Thumb, 74 bytes, Stack size 40 bytes, app_smp.o(i.app_smpc_ltk_req_rsp))
+<P><STRONG><a name="[da]"></a>app_smpc_ltk_req_rsp</STRONG> (Thumb, 74 bytes, Stack size 40 bytes, app_smp.o(i.app_smpc_ltk_req_rsp))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = app_smpc_ltk_req_rsp
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
@@ -1321,14 +1350,14 @@ Global Symbols
 <P><STRONG><a name="[5b]"></a>app_smpc_tk_req_ind_handler</STRONG> (Thumb, 76 bytes, Stack size 32 bytes, app_smp_task.o(i.app_smpc_tk_req_ind_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = app_smpc_tk_req_ind_handler &rArr; atoi &rArr; strtol &rArr; _strtoul
 </UL>
-<BR>[Calls]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_i_to_array
-<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_tk_req_rsp
+<BR>[Calls]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_i_to_array
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_smpc_tk_req_rsp
 <LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atoi
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[da]"></a>app_smpc_tk_req_rsp</STRONG> (Thumb, 50 bytes, Stack size 24 bytes, app_smp.o(i.app_smpc_tk_req_rsp))
+<P><STRONG><a name="[db]"></a>app_smpc_tk_req_rsp</STRONG> (Thumb, 50 bytes, Stack size 24 bytes, app_smp.o(i.app_smpc_tk_req_rsp))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = app_smpc_tk_req_rsp
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
@@ -1339,11 +1368,11 @@ Global Symbols
 <P><STRONG><a name="[59]"></a>app_smpm_set_key_cfm_handler</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, app_smp_task.o(i.app_smpm_set_key_cfm_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = app_smpm_set_key_cfm_handler &rArr; app_gap_set_bondable_mode_req
 </UL>
-<BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_bondable_mode_req
+<BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_set_bondable_mode_req
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[ca]"></a>app_smpm_set_key_req</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, app_smp.o(i.app_smpm_set_key_req))
+<P><STRONG><a name="[cb]"></a>app_smpm_set_key_req</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, app_smp.o(i.app_smpm_set_key_req))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = app_smpm_set_key_req
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
@@ -1356,7 +1385,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_scan_rsp_data
 <LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_set_adv_data
-<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_role
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_role
 <LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_get_local_service_flag
 <LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_param_update_req
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_start_req
@@ -1379,8 +1408,8 @@ Global Symbols
 <LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_req_cmp_evt_handler
 </UL>
 
-<P><STRONG><a name="[c9]"></a>app_uart_init</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, app_sys.o(i.app_uart_init))
-<BR><BR>[Called By]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
+<P><STRONG><a name="[ca]"></a>app_uart_init</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, app_sys.o(i.app_uart_init))
+<BR><BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
 </UL>
 
 <P><STRONG><a name="[a7]"></a>assert_err</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, app_main.o(i.assert_err))
@@ -1389,112 +1418,112 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_button_timer_handler
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_init
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_init
 </UL>
 
-<P><STRONG><a name="[dc]"></a>atts_svc_create_db_ext</STRONG> (Thumb, 316 bytes, Stack size 104 bytes, lib.o(i.atts_svc_create_db_ext))
+<P><STRONG><a name="[dd]"></a>atts_svc_create_db_ext</STRONG> (Thumb, 316 bytes, Stack size 104 bytes, lib.o(i.atts_svc_create_db_ext))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = atts_svc_create_db_ext &rArr; __aeabi_lasr
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lasr
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lasr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_create_db_req_handler
 </UL>
 
-<P><STRONG><a name="[de]"></a>ble_ext_wakeup_allow</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, lib.o(i.ble_ext_wakeup_allow))
+<P><STRONG><a name="[df]"></a>ble_ext_wakeup_allow</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, lib.o(i.ble_ext_wakeup_allow))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ble_ext_wakeup_allow &rArr; ble_hw_sleep &rArr; syscon_GetBLESR
 </UL>
-<BR>[Calls]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_hw_sleep
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
+<BR>[Calls]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_hw_sleep
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_button1_cb
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_button1_cb
 </UL>
 
-<P><STRONG><a name="[df]"></a>ble_hw_sleep</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, lib.o(i.ble_hw_sleep))
+<P><STRONG><a name="[e0]"></a>ble_hw_sleep</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, lib.o(i.ble_hw_sleep))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = ble_hw_sleep &rArr; syscon_GetBLESR
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
+<BR>[Calls]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
 </UL>
-<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_ext_wakeup_allow
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_ext_wakeup_allow
 </UL>
 
-<P><STRONG><a name="[e1]"></a>ble_init</STRONG> (Thumb, 368 bytes, Stack size 56 bytes, lib.o(i.ble_init))
+<P><STRONG><a name="[e2]"></a>ble_init</STRONG> (Thumb, 368 bytes, Stack size 56 bytes, lib.o(i.ble_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = ble_init &rArr; task_gatt_desc_register
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
-<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
-<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_work_mode
-<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_gatt_desc_register
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;config_work_mode
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_gatt_desc_register
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[e4]"></a>ble_sleep</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, lib.o(i.ble_sleep))
+<P><STRONG><a name="[e5]"></a>ble_sleep</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, lib.o(i.ble_sleep))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = ble_sleep &rArr; fw_ble_sleep &rArr; rwble_slot_2_lpcycles
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fw_ble_sleep
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fw_ble_sleep
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[e6]"></a>ble_timer_patch</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, lib.o(i.ble_timer_patch))
+<P><STRONG><a name="[e7]"></a>ble_timer_patch</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, lib.o(i.ble_timer_patch))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ble_timer_patch &rArr; ke_time
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_time
+<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_time
 </UL>
-<BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_schedule
+<BR>[Called By]<UL><LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_schedule
 </UL>
 
 <P><STRONG><a name="[88]"></a>button_init</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, button.o(i.button_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = button_init &rArr; gpio_wakeup_config
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_wakeup_config
-<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_enable_interrupt
+<BR>[Calls]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_wakeup_config
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_enable_interrupt
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
 </UL>
 
-<P><STRONG><a name="[eb]"></a>check_ble_wakeup</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, lib.o(i.check_ble_wakeup))
+<P><STRONG><a name="[ec]"></a>check_ble_wakeup</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, lib.o(i.check_ble_wakeup))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = check_ble_wakeup
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
+<BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
 </UL>
 
-<P><STRONG><a name="[102]"></a>co_buf_rx_get</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, lib.o(i.co_buf_rx_get))
+<P><STRONG><a name="[103]"></a>co_buf_rx_get</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, lib.o(i.co_buf_rx_get))
 <BR><BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;llm_lld_data_ind_handler_new
 <LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;l2cc_data_packet_ind_handler_patch
 </UL>
 
-<P><STRONG><a name="[e3]"></a>config_work_mode</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, lib.o(i.config_work_mode))
+<P><STRONG><a name="[e4]"></a>config_work_mode</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, lib.o(i.config_work_mode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = config_work_mode
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_init
+<BR>[Called By]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_init
 </UL>
 
-<P><STRONG><a name="[ec]"></a>dc_dc_enable</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, lib.o(i.dc_dc_enable))
+<P><STRONG><a name="[ed]"></a>dc_dc_enable</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, lib.o(i.dc_dc_enable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = dc_dc_enable &rArr; syscon_SetPGCR1WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
-<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR1WithMask
-<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR1WithMask
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[f0]"></a>enter_sleep</STRONG> (Thumb, 410 bytes, Stack size 24 bytes, sleep.o(i.enter_sleep))
+<P><STRONG><a name="[f1]"></a>enter_sleep</STRONG> (Thumb, 410 bytes, Stack size 24 bytes, sleep.o(i.enter_sleep))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = enter_sleep &rArr; sleep_post_process &rArr; syscon_SetPGCR1WithMask
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_post_process
-<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_dbg_info
-<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_ble_wakeup
-<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR2WithMask
-<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR0WithMask
-<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
+<BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_post_process
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_dbg_info
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_ble_wakeup
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR2WithMask
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR0WithMask
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
-<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -1510,17 +1539,17 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> printf8.o(i.__0printf$8)
 </UL>
-<P><STRONG><a name="[e5]"></a>fw_ble_sleep</STRONG> (Thumb, 134 bytes, Stack size 24 bytes, lib.o(i.fw_ble_sleep))
+<P><STRONG><a name="[e6]"></a>fw_ble_sleep</STRONG> (Thumb, 134 bytes, Stack size 24 bytes, lib.o(i.fw_ble_sleep))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = fw_ble_sleep &rArr; rwble_slot_2_lpcycles
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
-<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwble_slot_2_lpcycles
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rwble_slot_2_lpcycles
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_sleep
+<BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_sleep
 </UL>
 
-<P><STRONG><a name="[cb]"></a>gpio_enable_interrupt</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, gpio.o(i.gpio_enable_interrupt))
+<P><STRONG><a name="[cc]"></a>gpio_enable_interrupt</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, gpio.o(i.gpio_enable_interrupt))
 <BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;button_init
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_key_process_timer_handler
 </UL>
@@ -1536,85 +1565,85 @@ Global Symbols
 <P><STRONG><a name="[27]"></a>gpio_interrupt_callback</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, usr_design.o(i.gpio_interrupt_callback))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = gpio_interrupt_callback &rArr; usr_button1_cb &rArr; wakeup_32k_xtal_switch_clk &rArr; syscon_SetIvrefX32WithMask
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_button1_cb
+<BR>[Calls]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_button1_cb
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> system.o(i.SystemInit)
 </UL>
 <P><STRONG><a name="[a6]"></a>gpio_read_pin</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, gpio.o(i.gpio_read_pin))
-<BR><BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_get
+<BR><BR>[Called By]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_get
 <LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_button_timer_handler
 <LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_key_scan_timer_handler
 </UL>
 
-<P><STRONG><a name="[fb]"></a>gpio_read_pin_field</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, gpio.o(i.gpio_read_pin_field))
-<BR><BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_sleep_allowed
+<P><STRONG><a name="[fc]"></a>gpio_read_pin_field</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, gpio.o(i.gpio_read_pin_field))
+<BR><BR>[Called By]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_sleep_allowed
 </UL>
 
-<P><STRONG><a name="[fc]"></a>gpio_set_direction</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gpio.o(i.gpio_set_direction))
-<BR><BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_wakeup_config
+<P><STRONG><a name="[fd]"></a>gpio_set_direction</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, gpio.o(i.gpio_set_direction))
+<BR><BR>[Called By]<UL><LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_wakeup_config
 </UL>
 
-<P><STRONG><a name="[103]"></a>gpio_set_direction_field</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, gpio.o(i.gpio_set_direction_field))
+<P><STRONG><a name="[104]"></a>gpio_set_direction_field</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, gpio.o(i.gpio_set_direction_field))
 <BR><BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_init
 </UL>
 
-<P><STRONG><a name="[fa]"></a>gpio_sleep_allowed</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, gpio.o(i.gpio_sleep_allowed))
+<P><STRONG><a name="[fb]"></a>gpio_sleep_allowed</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, gpio.o(i.gpio_sleep_allowed))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = gpio_sleep_allowed
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_read_pin_field
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_read_pin_field
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
+<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
 </UL>
 
-<P><STRONG><a name="[e8]"></a>gpio_wakeup_config</STRONG> (Thumb, 92 bytes, Stack size 24 bytes, gpio.o(i.gpio_wakeup_config))
+<P><STRONG><a name="[e9]"></a>gpio_wakeup_config</STRONG> (Thumb, 92 bytes, Stack size 24 bytes, gpio.o(i.gpio_wakeup_config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = gpio_wakeup_config
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
-<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_direction
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_direction
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
 <BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;button_init
 </UL>
 
-<P><STRONG><a name="[fd]"></a>gpio_write_pin</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, gpio.o(i.gpio_write_pin))
+<P><STRONG><a name="[fe]"></a>gpio_write_pin</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, gpio.o(i.gpio_write_pin))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = gpio_write_pin
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
+<BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
 </UL>
 
-<P><STRONG><a name="[ff]"></a>is_flash_present</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, serialflash.o(i.is_flash_present))
+<P><STRONG><a name="[100]"></a>is_flash_present</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, serialflash.o(i.is_flash_present))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = is_flash_present &rArr; read_flash_id
 </UL>
-<BR>[Calls]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_flash_id
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;read_flash_id
 </UL>
 <BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;power_on_flash
 </UL>
 
-<P><STRONG><a name="[101]"></a>ke_schedule</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, lib.o(i.ke_schedule))
+<P><STRONG><a name="[102]"></a>ke_schedule</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, lib.o(i.ke_schedule))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = ke_schedule &rArr; ble_timer_patch &rArr; ke_time
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_timer_patch
+<BR>[Calls]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_timer_patch
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[e7]"></a>ke_time</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, lib.o(i.ke_time))
+<P><STRONG><a name="[e8]"></a>ke_time</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, lib.o(i.ke_time))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ke_time
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_timer_patch
+<BR>[Called By]<UL><LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_timer_patch
 </UL>
 
-<P><STRONG><a name="[119]"></a>ke_timer_empty</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, lib.o(i.ke_timer_empty))
-<BR><BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
+<P><STRONG><a name="[11a]"></a>ke_timer_empty</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, lib.o(i.ke_timer_empty))
+<BR><BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
 </UL>
 
-<P><STRONG><a name="[cd]"></a>led_get</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, led.o(i.led_get))
+<P><STRONG><a name="[ce]"></a>led_get</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, led.o(i.led_get))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = led_get &rArr; __ARM_common_switch8
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_read_pin
@@ -1626,17 +1655,17 @@ Global Symbols
 <P><STRONG><a name="[87]"></a>led_init</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, led.o(i.led_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = led_init &rArr; led_set &rArr; __ARM_common_switch8
 </UL>
-<BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
-<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_direction_field
+<BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_set_direction_field
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
 </UL>
 
-<P><STRONG><a name="[cc]"></a>led_set</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, led.o(i.led_set))
+<P><STRONG><a name="[cd]"></a>led_set</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, led.o(i.led_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = led_set &rArr; __ARM_common_switch8
 </UL>
 <BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_write_pin
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_write_pin
 </UL>
 <BR>[Called By]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_led_timer_handler
 <LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_led1_set
@@ -1652,35 +1681,35 @@ Global Symbols
 <P><STRONG><a name="[25]"></a>main</STRONG> (Thumb, 194 bytes, Stack size 16 bytes, app_main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 632<LI>Call Chain = main &rArr; plf_init &rArr; nvds_restore_backup &rArr; nvds_copy &rArr; sector_erase_flash_patch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_by_sleep_timer
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_init
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_init
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_schedule
-<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
-<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dc_dc_enable
-<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_sleep
-<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_init
-<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_by_sleep_timer
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_init
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_init
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_schedule
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dc_dc_enable
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_sleep
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_init
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
 </UL>
-<P><STRONG><a name="[105]"></a>plf_init</STRONG> (Thumb, 610 bytes, Stack size 40 bytes, lib.o(i.plf_init))
+<P><STRONG><a name="[106]"></a>plf_init</STRONG> (Thumb, 610 bytes, Stack size 40 bytes, lib.o(i.plf_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 616<LI>Call Chain = plf_init &rArr; nvds_restore_backup &rArr; nvds_copy &rArr; sector_erase_flash_patch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__nvds_get
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;srand
-<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR1WithMask
-<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_restore_backup
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;srand
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR1WithMask
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_restore_backup
 <LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_off
-<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dp_dp_SetRegWithMask
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dp_dp_SetRegWithMask
 <LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;power_on_flash
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -1691,7 +1720,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_busy
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_busy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__nvds_get
 <LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_read
@@ -1702,10 +1731,10 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_present
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_present
 </UL>
 <BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__nvds_get
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
 <LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_read
 </UL>
 
@@ -1717,26 +1746,26 @@ Global Symbols
 <P><STRONG><a name="[30]"></a>prf_init</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, prf_utils.o(i.prf_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = prf_init &rArr; qpps_init &rArr; task_qpps_desc_register
 </UL>
-<BR>[Calls]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_init
+<BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_init
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_main.o(i.main)
 </UL>
-<P><STRONG><a name="[f8]"></a>qpps_disable</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, qpps.o(i.qpps_disable))
+<P><STRONG><a name="[f9]"></a>qpps_disable</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, qpps.o(i.qpps_disable))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = qpps_disable
 </UL>
 <BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gap_discon_cmp_evt_handler
 </UL>
 
-<P><STRONG><a name="[112]"></a>qpps_error_ind_send</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, qpps.o(i.qpps_error_ind_send))
+<P><STRONG><a name="[113]"></a>qpps_error_ind_send</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, qpps.o(i.qpps_error_ind_send))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = qpps_error_ind_send
 </UL>
 <BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_data_send_req_handler
 </UL>
 
-<P><STRONG><a name="[111]"></a>qpps_init</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, qpps.o(i.qpps_init))
+<P><STRONG><a name="[112]"></a>qpps_init</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, qpps.o(i.qpps_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = qpps_init &rArr; task_qpps_desc_register
 </UL>
-<BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_qpps_desc_register
+<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;task_qpps_desc_register
 </UL>
 <BR>[Called By]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prf_init
 </UL>
@@ -1749,67 +1778,67 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_create_server_service_DB
 </UL>
 
-<P><STRONG><a name="[100]"></a>read_flash_id</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, serialflash.o(i.read_flash_id))
+<P><STRONG><a name="[101]"></a>read_flash_id</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, serialflash.o(i.read_flash_id))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = read_flash_id
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_present
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_flash_present
 </UL>
 
-<P><STRONG><a name="[114]"></a>restore_ble_setting</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, lib.o(i.restore_ble_setting))
+<P><STRONG><a name="[115]"></a>restore_ble_setting</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, lib.o(i.restore_ble_setting))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = restore_ble_setting &rArr; dp_dp_SetRegWithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
-<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dp_dp_SetRegWithMask
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dp_dp_SetRegWithMask
 </UL>
 <BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_cb
 </UL>
 
-<P><STRONG><a name="[f7]"></a>rwble_slot_2_lpcycles</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, lib.o(i.rwble_slot_2_lpcycles))
+<P><STRONG><a name="[f8]"></a>rwble_slot_2_lpcycles</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, lib.o(i.rwble_slot_2_lpcycles))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = rwble_slot_2_lpcycles
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fw_ble_sleep
+<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fw_ble_sleep
 </UL>
 
-<P><STRONG><a name="[f4]"></a>set_dbg_info</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, lib.o(i.set_dbg_info))
-<BR><BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
+<P><STRONG><a name="[f5]"></a>set_dbg_info</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, lib.o(i.set_dbg_info))
+<BR><BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
 </UL>
 
 <P><STRONG><a name="[32]"></a>sleep_cb</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sleep.o(i.sleep_cb))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = sleep_cb &rArr; usr_sleep_restore &rArr; uart_init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep_restore
-<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;restore_ble_setting
+<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep_restore
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;restore_ble_setting
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_main.o(i.main)
 </UL>
-<P><STRONG><a name="[107]"></a>sleep_init</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, sleep.o(i.sleep_init))
+<P><STRONG><a name="[108]"></a>sleep_init</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, sleep.o(i.sleep_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = sleep_init &rArr; syscon_SetPGCR0WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
-<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR0WithMask
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR0WithMask
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[f6]"></a>sleep_post_process</STRONG> (Thumb, 104 bytes, Stack size 24 bytes, lib.o(i.sleep_post_process))
+<P><STRONG><a name="[f7]"></a>sleep_post_process</STRONG> (Thumb, 104 bytes, Stack size 24 bytes, lib.o(i.sleep_post_process))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = sleep_post_process &rArr; syscon_SetPGCR1WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
-<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR1WithMask
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
-<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dp_dp_SetRegWithMask
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR1WithMask
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dp_dp_SetRegWithMask
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
+<BR>[Called By]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
 </UL>
 
 <P><STRONG><a name="[81]"></a>syscon_set_ahb_clk</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, syscon.o(i.syscon_set_ahb_clk))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = syscon_set_ahb_clk &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
+<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
 <LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
@@ -1818,7 +1847,7 @@ Global Symbols
 <P><STRONG><a name="[83]"></a>syscon_set_apb_clk</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, syscon.o(i.syscon_set_apb_clk))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = syscon_set_apb_clk &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
+<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
 <LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
@@ -1827,7 +1856,7 @@ Global Symbols
 <P><STRONG><a name="[82]"></a>syscon_set_ble_clk</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, syscon.o(i.syscon_set_ble_clk))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = syscon_set_ble_clk &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
+<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
 <LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
@@ -1837,7 +1866,7 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = syscon_set_sysclk_src &rArr; syscon_SetCMDCRWithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
-<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
@@ -1846,7 +1875,7 @@ Global Symbols
 <P><STRONG><a name="[84]"></a>syscon_set_timer_clk</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, syscon.o(i.syscon_set_timer_clk))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = syscon_set_timer_clk &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
+<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
 <LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
@@ -1855,30 +1884,30 @@ Global Symbols
 <P><STRONG><a name="[85]"></a>syscon_set_usart_clk</STRONG> (Thumb, 92 bytes, Stack size 16 bytes, syscon.o(i.syscon_set_usart_clk))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = syscon_set_usart_clk &rArr; __aeabi_uidivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
+<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
 <LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
 </UL>
 
-<P><STRONG><a name="[c8]"></a>task_app_desc_register</STRONG> (Thumb, 44 bytes, Stack size 32 bytes, app_task.o(i.task_app_desc_register))
+<P><STRONG><a name="[c9]"></a>task_app_desc_register</STRONG> (Thumb, 44 bytes, Stack size 32 bytes, app_task.o(i.task_app_desc_register))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = task_app_desc_register
 </UL>
-<BR>[Called By]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
 </UL>
 
-<P><STRONG><a name="[113]"></a>task_qpps_desc_register</STRONG> (Thumb, 44 bytes, Stack size 32 bytes, qpps_task.o(i.task_qpps_desc_register))
+<P><STRONG><a name="[114]"></a>task_qpps_desc_register</STRONG> (Thumb, 44 bytes, Stack size 32 bytes, qpps_task.o(i.task_qpps_desc_register))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = task_qpps_desc_register
 </UL>
-<BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_init
+<BR>[Called By]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_init
 </UL>
 
-<P><STRONG><a name="[117]"></a>uart_check_tx_free</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, uart.o(i.uart_check_tx_free))
+<P><STRONG><a name="[118]"></a>uart_check_tx_free</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, uart.o(i.uart_check_tx_free))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = uart_check_tx_free &rArr; uart_uart_GetIntFlag
 </UL>
 <BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_uart_GetIntFlag
 </UL>
-<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
+<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
 </UL>
 
 <P><STRONG><a name="[89]"></a>uart_init</STRONG> (Thumb, 124 bytes, Stack size 24 bytes, uart.o(i.uart_init))
@@ -1886,20 +1915,20 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep_restore
+<BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep_restore
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
 </UL>
 
-<P><STRONG><a name="[f9]"></a>usr_button1_cb</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, usr_design.o(i.usr_button1_cb))
+<P><STRONG><a name="[fa]"></a>usr_button1_cb</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, usr_design.o(i.usr_button1_cb))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = usr_button1_cb &rArr; wakeup_32k_xtal_switch_clk &rArr; syscon_SetIvrefX32WithMask
 </UL>
-<BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_32k_xtal_switch_clk
-<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_ext_wakeup_allow
+<BR>[Calls]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_32k_xtal_switch_clk
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_ext_wakeup_allow
 </UL>
 <BR>[Called By]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_interrupt_callback
 </UL>
 
-<P><STRONG><a name="[106]"></a>usr_init</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, usr_design.o(i.usr_init))
+<P><STRONG><a name="[107]"></a>usr_init</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, usr_design.o(i.usr_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = usr_init &rArr; assert_err &rArr; __2printf
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_err
@@ -1907,19 +1936,19 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[109]"></a>usr_sleep</STRONG> (Thumb, 120 bytes, Stack size 16 bytes, sleep.o(i.usr_sleep))
+<P><STRONG><a name="[10a]"></a>usr_sleep</STRONG> (Thumb, 120 bytes, Stack size 16 bytes, sleep.o(i.usr_sleep))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = usr_sleep &rArr; uart_check_tx_free &rArr; uart_uart_GetIntFlag
 </UL>
-<BR>[Calls]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_timer_empty
-<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
-<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
-<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_sleep_allowed
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_check_tx_free
+<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ke_timer_empty
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpio_sleep_allowed
+<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_check_tx_free
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[115]"></a>usr_sleep_restore</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, usr_design.o(i.usr_sleep_restore))
+<P><STRONG><a name="[116]"></a>usr_sleep_restore</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, usr_design.o(i.usr_sleep_restore))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = usr_sleep_restore &rArr; uart_init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_init
@@ -1932,22 +1961,22 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_event_button1_press_handler
 </UL>
 
-<P><STRONG><a name="[118]"></a>wakeup_32k_xtal_switch_clk</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, sleep.o(i.wakeup_32k_xtal_switch_clk))
+<P><STRONG><a name="[119]"></a>wakeup_32k_xtal_switch_clk</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, sleep.o(i.wakeup_32k_xtal_switch_clk))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = wakeup_32k_xtal_switch_clk &rArr; syscon_SetIvrefX32WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
-<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetIvrefX32WithMask
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_button1_cb
+<BR>[Called By]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_button1_cb
 </UL>
 
-<P><STRONG><a name="[108]"></a>wakeup_by_sleep_timer</STRONG> (Thumb, 92 bytes, Stack size 16 bytes, sleep.o(i.wakeup_by_sleep_timer))
+<P><STRONG><a name="[109]"></a>wakeup_by_sleep_timer</STRONG> (Thumb, 92 bytes, Stack size 16 bytes, sleep.o(i.wakeup_by_sleep_timer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = wakeup_by_sleep_timer &rArr; syscon_SetPGCR2WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
-<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR2WithMask
-<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR0WithMask
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR2WithMask
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR0WithMask
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetCMDCRWithMask
 </UL>
 <BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -1957,7 +1986,7 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = wdt_irq_clear &rArr; wdt_wdt_SetLKR
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wdt_wdt_SetLKR
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wdt_wdt_SetLKR
 </UL>
 <BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WDT_IRQHandler
 </UL>
@@ -1968,20 +1997,20 @@ Local Symbols
 <P><STRONG><a name="[b3]"></a>usr_led1_set</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, usr_design.o(i.usr_led1_set))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = usr_led1_set &rArr; led_set &rArr; __ARM_common_switch8
 </UL>
-<BR>[Calls]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
+<BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_set
 </UL>
 <BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_task_msg_hdl
 <LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gap_adv_intv_update_timer_handler
 </UL>
 
-<P><STRONG><a name="[c7]"></a>app_smp_init</STRONG> (Thumb, 244 bytes, Stack size 48 bytes, app_env.o(i.app_smp_init))
+<P><STRONG><a name="[c8]"></a>app_smp_init</STRONG> (Thumb, 244 bytes, Stack size 48 bytes, app_env.o(i.app_smp_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = app_smp_init &rArr; __nvds_get &rArr; power_on_flash &rArr; is_flash_present &rArr; read_flash_id
 </UL>
 <BR>[Calls]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__nvds_get
-<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
-<BR>[Called By]<UL><LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_init
 </UL>
 
 <P><STRONG><a name="[42]"></a>app_32k_xtal_wakeup_timer</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, app_task.o(i.app_32k_xtal_wakeup_timer))
@@ -1991,16 +2020,17 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> app_task.o(.constdata)
 </UL>
-<P><STRONG><a name="[cf]"></a>app_test_send_data</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, app_qpps_task.o(i.app_test_send_data))
+<P><STRONG><a name="[d0]"></a>app_test_send_data</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, app_qpps_task.o(i.app_test_send_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = app_test_send_data &rArr; app_qpps_data_send
 </UL>
-<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_data_send
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_data_send
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_data_send_cfm_handler
 <LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_cfg_indntf_ind_handler
 </UL>
 
-<P><STRONG><a name="[ce]"></a>get_bit_num</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, app_qpps_task.o(i.get_bit_num))
+<P><STRONG><a name="[cf]"></a>get_bit_num</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, app_qpps_task.o(i.get_bit_num))
 <BR><BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_data_send_cfm_handler
 <LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_qpps_cfg_indntf_ind_handler
 </UL>
@@ -2008,7 +2038,7 @@ Local Symbols
 <P><STRONG><a name="[6c]"></a>gap_discon_cmp_evt_handler</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, qpps_task.o(i.gap_discon_cmp_evt_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = gap_discon_cmp_evt_handler &rArr; qpps_disable
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_disable
+<BR>[Calls]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_disable
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> qpps_task.o(.constdata)
 </UL>
@@ -2030,8 +2060,8 @@ Local Symbols
 <P><STRONG><a name="[67]"></a>qpps_create_db_req_handler</STRONG> (Thumb, 340 bytes, Stack size 88 bytes, qpps_task.o(i.qpps_create_db_req_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = qpps_create_db_req_handler &rArr; atts_svc_create_db_ext &rArr; __aeabi_lasr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atts_svc_create_db_ext
-<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<BR>[Calls]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;atts_svc_create_db_ext
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> qpps_task.o(.constdata)
@@ -2039,7 +2069,7 @@ Local Symbols
 <P><STRONG><a name="[69]"></a>qpps_data_send_req_handler</STRONG> (Thumb, 120 bytes, Stack size 24 bytes, qpps_task.o(i.qpps_data_send_req_handler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = qpps_data_send_req_handler &rArr; qpps_error_ind_send
 </UL>
-<BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_error_ind_send
+<BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qpps_error_ind_send
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> qpps_task.o(.constdata)
 </UL>
@@ -2115,7 +2145,7 @@ Local Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_check_tx_free
+<BR>[Called By]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_check_tx_free
 <LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UartPutc
 <LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_TX_IRQHandler
 <LI><a href="#[14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_RX_IRQHandler
@@ -2130,13 +2160,13 @@ Local Symbols
 <LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_TX_IRQHandler
 </UL>
 
-<P><STRONG><a name="[f5]"></a>syscon_GetBLESR</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sleep.o(i.syscon_GetBLESR))
+<P><STRONG><a name="[f6]"></a>syscon_GetBLESR</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sleep.o(i.syscon_GetBLESR))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = syscon_GetBLESR
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
-<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
+<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
 </UL>
 
 <P><STRONG><a name="[7e]"></a>syscon_SetCMDCRWithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sleep.o(i.syscon_SetCMDCRWithMask))
@@ -2144,42 +2174,42 @@ Local Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 </UL>
-<BR>[Called By]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_32k_xtal_switch_clk
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_by_sleep_timer
-<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
+<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_32k_xtal_switch_clk
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_by_sleep_timer
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
 <LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSC_EN_IRQHandler
 </UL>
 
-<P><STRONG><a name="[f3]"></a>syscon_SetIvrefX32WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sleep.o(i.syscon_SetIvrefX32WithMask))
+<P><STRONG><a name="[f4]"></a>syscon_SetIvrefX32WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sleep.o(i.syscon_SetIvrefX32WithMask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = syscon_SetIvrefX32WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 </UL>
-<BR>[Called By]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_32k_xtal_switch_clk
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
-<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
+<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_32k_xtal_switch_clk
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;usr_sleep
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
 </UL>
 
-<P><STRONG><a name="[f1]"></a>syscon_SetPGCR0WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sleep.o(i.syscon_SetPGCR0WithMask))
+<P><STRONG><a name="[f2]"></a>syscon_SetPGCR0WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sleep.o(i.syscon_SetPGCR0WithMask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = syscon_SetPGCR0WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 </UL>
-<BR>[Called By]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_by_sleep_timer
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_init
-<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
+<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_by_sleep_timer
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_init
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
 </UL>
 
-<P><STRONG><a name="[f2]"></a>syscon_SetPGCR2WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sleep.o(i.syscon_SetPGCR2WithMask))
+<P><STRONG><a name="[f3]"></a>syscon_SetPGCR2WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, sleep.o(i.syscon_SetPGCR2WithMask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = syscon_SetPGCR2WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 </UL>
-<BR>[Called By]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_by_sleep_timer
-<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
+<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wakeup_by_sleep_timer
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;enter_sleep
 </UL>
 
-<P><STRONG><a name="[116]"></a>syscon_SetCMDCRWithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, syscon.o(i.syscon_SetCMDCRWithMask))
+<P><STRONG><a name="[117]"></a>syscon_SetCMDCRWithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, syscon.o(i.syscon_SetCMDCRWithMask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = syscon_SetCMDCRWithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
@@ -2192,7 +2222,7 @@ Local Symbols
 <LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_set_ahb_clk
 </UL>
 
-<P><STRONG><a name="[11a]"></a>wdt_wdt_SetLKR</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, wdt.o(i.wdt_wdt_SetLKR))
+<P><STRONG><a name="[11b]"></a>wdt_wdt_SetLKR</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, wdt.o(i.wdt_wdt_SetLKR))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = wdt_wdt_SetLKR
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
@@ -2222,7 +2252,7 @@ Local Symbols
 <LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIMER0_IRQHandler
 </UL>
 
-<P><STRONG><a name="[fe]"></a>is_flash_busy</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, serialflash.o(i.is_flash_busy))
+<P><STRONG><a name="[ff]"></a>is_flash_busy</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, serialflash.o(i.is_flash_busy))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = is_flash_busy
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
@@ -2247,20 +2277,20 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> lib.o(i.task_gatt_desc_register)
 </UL>
-<P><STRONG><a name="[e9]"></a>cal_cal_SetCAL0WithMask</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, lib.o(i.cal_cal_SetCAL0WithMask))
+<P><STRONG><a name="[ea]"></a>cal_cal_SetCAL0WithMask</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, lib.o(i.cal_cal_SetCAL0WithMask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = cal_cal_SetCAL0WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
+<BR>[Called By]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
 </UL>
 
-<P><STRONG><a name="[ea]"></a>cal_cal_SetCAL1WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, lib.o(i.cal_cal_SetCAL1WithMask))
+<P><STRONG><a name="[eb]"></a>cal_cal_SetCAL1WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, lib.o(i.cal_cal_SetCAL1WithMask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = cal_cal_SetCAL1WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
+<BR>[Called By]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
 </UL>
 
 <P><STRONG><a name="[39]"></a>default_enter_sleep_cb</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, lib.o(i.default_enter_sleep_cb))
@@ -2275,19 +2305,19 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> lib.o(i.plf_init)
 </UL>
-<P><STRONG><a name="[110]"></a>delay</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, lib.o(i.delay))
-<BR><BR>[Called By]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
+<P><STRONG><a name="[111]"></a>delay</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, lib.o(i.delay))
+<BR><BR>[Called By]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
 </UL>
 
-<P><STRONG><a name="[ef]"></a>dp_dp_SetRegWithMask</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, lib.o(i.dp_dp_SetRegWithMask))
+<P><STRONG><a name="[f0]"></a>dp_dp_SetRegWithMask</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, lib.o(i.dp_dp_SetRegWithMask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = dp_dp_SetRegWithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 </UL>
-<BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
-<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_post_process
-<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;restore_ble_setting
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
+<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_post_process
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;restore_ble_setting
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
 </UL>
 
 <P><STRONG><a name="[2f]"></a>gap_discon_ind_handler_patch</STRONG> (Thumb, 128 bytes, Stack size 40 bytes, lib.o(i.gap_discon_ind_handler_patch))
@@ -2313,7 +2343,7 @@ Local Symbols
 <BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
 <BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__nvds_get
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
 <LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_read
 </UL>
 
@@ -2321,7 +2351,7 @@ Local Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = l2cc_data_packet_ind_handler_patch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;co_buf_rx_get
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;co_buf_rx_get
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> lib.o(i.ble_init)
 </UL>
@@ -2333,7 +2363,7 @@ Local Symbols
 <P><STRONG><a name="[37]"></a>lld_sleep_lpcycles_2_us</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, lib.o(i.lld_sleep_lpcycles_2_us))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = lld_sleep_lpcycles_2_us
 </UL>
-<BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lmul
+<BR>[Calls]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_lmul
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> lib.o(i.plf_init)
 </UL>
@@ -2349,24 +2379,24 @@ Local Symbols
 <LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_switch8
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
-<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;co_buf_rx_get
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;co_buf_rx_get
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> lib.o(i.ble_init)
 </UL>
-<P><STRONG><a name="[10a]"></a>nvds_copy</STRONG> (Thumb, 58 bytes, Stack size 280 bytes, lib.o(i.nvds_copy))
+<P><STRONG><a name="[10b]"></a>nvds_copy</STRONG> (Thumb, 58 bytes, Stack size 280 bytes, lib.o(i.nvds_copy))
 <BR><BR>[Stack]<UL><LI>Max Depth = 304<LI>Call Chain = nvds_copy &rArr; sector_erase_flash_patch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sector_erase_flash_patch
+<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sector_erase_flash_patch
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_restore_backup
+<BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_restore_backup
 <LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_erase
 </UL>
 
 <P><STRONG><a name="[34]"></a>nvds_erase</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, lib.o(i.nvds_erase))
 <BR><BR>[Stack]<UL><LI>Max Depth = 320<LI>Call Chain = nvds_erase &rArr; nvds_copy &rArr; sector_erase_flash_patch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sector_erase_flash_patch
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_copy
+<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sector_erase_flash_patch
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_copy
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> lib.o(i.plf_init)
 </UL>
@@ -2380,13 +2410,13 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> lib.o(i.plf_init)
 </UL>
-<P><STRONG><a name="[10c]"></a>nvds_restore_backup</STRONG> (Thumb, 98 bytes, Stack size 272 bytes, lib.o(i.nvds_restore_backup))
+<P><STRONG><a name="[10d]"></a>nvds_restore_backup</STRONG> (Thumb, 98 bytes, Stack size 272 bytes, lib.o(i.nvds_restore_backup))
 <BR><BR>[Stack]<UL><LI>Max Depth = 576<LI>Call Chain = nvds_restore_backup &rArr; nvds_copy &rArr; sector_erase_flash_patch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;memcmp
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_copy
+<BR>[Calls]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;memcmp
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_copy
 </UL>
-<BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
 </UL>
 
 <P><STRONG><a name="[33]"></a>nvds_write</STRONG> (Thumb, 78 bytes, Stack size 32 bytes, lib.o(i.nvds_write))
@@ -2399,29 +2429,29 @@ Local Symbols
 <P><STRONG><a name="[3b]"></a>plf_reset_cb</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, lib.o(i.plf_reset_cb))
 <BR>[Address Reference Count : 1]<UL><LI> lib.o(i.plf_init)
 </UL>
-<P><STRONG><a name="[10e]"></a>powerup_calibration</STRONG> (Thumb, 330 bytes, Stack size 24 bytes, lib.o(i.powerup_calibration))
+<P><STRONG><a name="[10f]"></a>powerup_calibration</STRONG> (Thumb, 330 bytes, Stack size 24 bytes, lib.o(i.powerup_calibration))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = powerup_calibration &rArr; syscon_SetPGCR1WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
 <LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 <LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
-<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR1WithMask
-<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
-<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dp_dp_SetRegWithMask
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay
-<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cal_cal_SetCAL1WithMask
-<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cal_cal_SetCAL0WithMask
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_SetPGCR1WithMask
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;syscon_GetBLESR
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dp_dp_SetRegWithMask
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cal_cal_SetCAL1WithMask
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cal_cal_SetCAL0WithMask
 </UL>
-<BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
 </UL>
 
-<P><STRONG><a name="[10b]"></a>sector_erase_flash_patch</STRONG> (Thumb, 40 bytes, Stack size 24 bytes, lib.o(i.sector_erase_flash_patch))
+<P><STRONG><a name="[10c]"></a>sector_erase_flash_patch</STRONG> (Thumb, 40 bytes, Stack size 24 bytes, lib.o(i.sector_erase_flash_patch))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = sector_erase_flash_patch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg
 </UL>
 <BR>[Called By]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_erase
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_copy
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nvds_copy
 </UL>
 
 <P><STRONG><a name="[2e]"></a>smp_rtx_ind_handler_patch</STRONG> (Thumb, 70 bytes, Stack size 24 bytes, lib.o(i.smp_rtx_ind_handler_patch))
@@ -2429,45 +2459,45 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> lib.o(i.ble_init)
 </UL>
-<P><STRONG><a name="[e0]"></a>syscon_GetBLESR</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, lib.o(i.syscon_GetBLESR))
+<P><STRONG><a name="[e1]"></a>syscon_GetBLESR</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, lib.o(i.syscon_GetBLESR))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = syscon_GetBLESR
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rd_reg
 </UL>
-<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_ext_wakeup_allow
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
-<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_sleep
-<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_post_process
-<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_hw_sleep
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_ext_wakeup_allow
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_sleep
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_post_process
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_hw_sleep
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
 </UL>
 
-<P><STRONG><a name="[ed]"></a>syscon_SetIvrefX32WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, lib.o(i.syscon_SetIvrefX32WithMask))
+<P><STRONG><a name="[ee]"></a>syscon_SetIvrefX32WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, lib.o(i.syscon_SetIvrefX32WithMask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = syscon_SetIvrefX32WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 </UL>
-<BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
-<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dc_dc_enable
+<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dc_dc_enable
 </UL>
 
-<P><STRONG><a name="[ee]"></a>syscon_SetPGCR1WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, lib.o(i.syscon_SetPGCR1WithMask))
+<P><STRONG><a name="[ef]"></a>syscon_SetPGCR1WithMask</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, lib.o(i.syscon_SetPGCR1WithMask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = syscon_SetPGCR1WithMask
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__wr_reg_with_msk
 </UL>
-<BR>[Called By]<UL><LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
-<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dc_dc_enable
-<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_post_process
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
+<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;plf_init
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dc_dc_enable
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sleep_post_process
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;powerup_calibration
 </UL>
 
-<P><STRONG><a name="[e2]"></a>task_gatt_desc_register</STRONG> (Thumb, 124 bytes, Stack size 40 bytes, lib.o(i.task_gatt_desc_register))
+<P><STRONG><a name="[e3]"></a>task_gatt_desc_register</STRONG> (Thumb, 124 bytes, Stack size 40 bytes, lib.o(i.task_gatt_desc_register))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = task_gatt_desc_register
 </UL>
-<BR>[Calls]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_init
+<BR>[Called By]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_init
 </UL>
 
 <P><STRONG><a name="[94]"></a>_printf_core</STRONG> (Thumb, 1020 bytes, Stack size 104 bytes, printf8.o(i._printf_core), UNUSED)

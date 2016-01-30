@@ -446,6 +446,8 @@ int app_gap_set_mode_req_cmp_evt_handler(ke_msg_id_t const msgid, struct gap_eve
     {
     case APP_INIT:
 #if QN_DEMO_AUTO
+		 //Set remote device name
+		 app_gap_set_devname_req("nephen",6);
         // Created DB should has been finished by each profile service,
         // Start Adv mode automatically here
         app_gap_adv_start_req(GAP_GEN_DISCOVERABLE|GAP_UND_CONNECTABLE, 

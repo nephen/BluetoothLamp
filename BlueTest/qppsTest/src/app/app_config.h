@@ -218,7 +218,7 @@
     #define QN_DEMO_MENU            1
 #endif
 
-// #define QN_DEMO_AUTO             1
+ #define QN_DEMO_AUTO             1
 
 /// White List support
 #if (defined(CFG_WL_SUPPORT))

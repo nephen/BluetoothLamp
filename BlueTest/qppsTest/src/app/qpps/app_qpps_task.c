@@ -162,6 +162,8 @@ int app_qpps_data_send_cfm_handler(ke_msg_id_t const msgid,
 {
     if (app_qpps_env->conhdl == param->conhdl && param->status == PRF_ERR_OK)
     {
+    	QPRINTF("enter app_qpps_data_send_cfm_handler");
+		QPRINTF("\r\n");
         // Allow new notify
         app_qpps_env->char_status |= (1 << param->char_index);
 
@@ -202,12 +204,20 @@ int app_qpps_cfg_indntf_ind_handler(ke_msg_id_t const msgid,
 {
     if (app_qpps_env->conhdl == param->conhdl)
     {
+    	QPRINTF("enter app_qpps_cfg_indntf_ind_handler");
+		QPRINTF("\r\n");
         if (param->cfg_val == PRF_CLI_START_NTF)
         {
-            app_qpps_env->features |= (QPPS_VALUE_NTF_CFG << param->char_index);
+        	QPRINTF("enter PRF_CLI_START_NTF");
+			QPRINTF("\r\n");
+			app_qpps_env->features |= (QPPS_VALUE_NTF_CFG << param->char_index);
+			QPRINTF("app_qpps_env->features is %d, param->char_index is %d",app_qpps_env->features,param->char_index);
+			QPRINTF("\r\n");
             // App send data if all of characteristic have been configured
-            if (get_bit_num(app_qpps_env->features) == app_qpps_env->tx_char_num)
+            if (get_bit_num(app_qpps_env->features) == app_qpps_env->tx_char_num)//num is 5
             {
+            	QPRINTF("enter app_qpps_env->features");
+				QPRINTF("\r\n");
                 app_qpps_env->char_status = app_qpps_env->features;
                 app_test_send_data(app_qpps_env->tx_char_num - 1);
             }
@@ -242,9 +252,16 @@ int app_qpps_data_ind_handler(ke_msg_id_t const msgid,
                               ke_task_id_t const dest_id,
                               ke_task_id_t const src_id)
 {
+	 uint8_t i;
     if (param->length > 0)
     {
         QPRINTF("len=%d, I%02X", param->length, param->data[0]);
+		 QPRINTF("\r\n");
+		 QPRINTF("the receive data is :");
+		 for(i=0;i<param->length;i++)
+	 	 {
+	 		QPRINTF("%x",param->data[i]);
+	 	 }
     }
     QPRINTF("\r\n");
 
@@ -264,6 +281,8 @@ static void app_test_send_data(uint8_t max)
 {
     uint8_t cnt;
 
+	QPRINTF("enter app_test_send_data");
+	QPRINTF("\r\n");
     for (cnt = 0; (max != 0) && cnt < app_qpps_env->tx_char_num; cnt++)
     {
         if ((app_qpps_env->char_status >> cnt) & QPPS_VALUE_NTF_CFG)

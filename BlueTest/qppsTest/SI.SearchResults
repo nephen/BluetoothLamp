@@ -1,9 +1,6 @@
----- attsdb_att_set_permission Matches (10 in 5 files) ----
-Atts_db.h (src\fw):typedef uint8_t (*p_attsdb_att_set_permission)(uint16_t handle, uint16_t perm);
-Atts_db.h (src\fw):#define attsdb_att_set_permission ((p_attsdb_att_set_permission)(_attsdb_att_set_permission))
-Bass_task.c (src\profiles\bas\bass):                    attsdb_att_set_permission(bass_env.shdl[i] + BAS_IDX_BATT_LVL_VAL, perm);
-Fw_func_addr.h (src\fw):#define _attsdb_att_set_permission                      0x0100b281
-Hogpd_task.c (src\profiles\hogp\hogpd):                            attsdb_att_set_permission(handle, perm);
-Hogpd_task.c (src\profiles\hogp\hogpd):                            attsdb_att_set_permission(handle, perm);
-Hogpd_task.c (src\profiles\hogp\hogpd):                                attsdb_att_set_permission(handle, perm);
-Htpt_task.c (src\profiles\htp\htpt):            attsdb_att_set_permission(htpt_env.shdl + htpt_env.att_tbl[HTPT_MEAS_INTV_CHAR] + 1, total_size);
+---- QPPS_DATA_SEND_REQ Matches (5 in 3 files) ----
+App_qpps.c (src\app\qpps):    struct qpps_data_send_req * msg = KE_MSG_ALLOC_DYN(QPPS_DATA_SEND_REQ, TASK_QPPS, TASK_APP,
+Qpps_task.c (src\profiles\qpp\qpps): * @brief Handles reception of the @ref QPPS_DATA_SEND_REQ message.
+Qpps_task.c (src\profiles\qpp\qpps):    {QPPS_DATA_SEND_REQ,    (ke_msg_func_t) qpps_data_send_req_handler},
+Qpps_task.h (src\profiles\qpp\qpps):    QPPS_DATA_SEND_REQ,
+Qpps_task.h (src\profiles\qpp\qpps)://///Parameters of the @ref QPPS_DATA_SEND_REQ message
