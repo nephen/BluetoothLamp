@@ -1,6 +1,5 @@
----- QPPS_DATA_SEND_REQ Matches (5 in 3 files) ----
-App_qpps.c (src\app\qpps):    struct qpps_data_send_req * msg = KE_MSG_ALLOC_DYN(QPPS_DATA_SEND_REQ, TASK_QPPS, TASK_APP,
-Qpps_task.c (src\profiles\qpp\qpps): * @brief Handles reception of the @ref QPPS_DATA_SEND_REQ message.
-Qpps_task.c (src\profiles\qpp\qpps):    {QPPS_DATA_SEND_REQ,    (ke_msg_func_t) qpps_data_send_req_handler},
-Qpps_task.h (src\profiles\qpp\qpps):    QPPS_DATA_SEND_REQ,
-Qpps_task.h (src\profiles\qpp\qpps)://///Parameters of the @ref QPPS_DATA_SEND_REQ message
+---- GAP_READY_EVT Matches (4 in 4 files) ----
+App_gap_task.c (src\app\gap): * @param[in] msgid     GAP_READY_EVT
+App_menu.c (src\app):        case GAP_READY_EVT:
+App_task.c (src\app):    {GAP_READY_EVT,                         (ke_msg_func_t) app_gap_ready_evt_handler},
+Gap_task.h (src\fw):    GAP_READY_EVT = KE_FIRST_MSG(TASK_GAP) + 70,

@@ -137,6 +137,7 @@ void app_task_msg_hdl(ke_msg_id_t const msgid, void const *param)
             if(APP_IDLE == ke_state_get(TASK_APP))
             {
                 usr_led1_set(LED_ON_DUR_ADV_FAST, LED_OFF_DUR_ADV_FAST);
+				  //delay some time let adv slow
                 ke_timer_set(APP_ADV_INTV_UPDATE_TIMER, TASK_APP, 30 * 100);
             }
             else if(APP_ADV == ke_state_get(TASK_APP))

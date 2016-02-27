@@ -151,7 +151,7 @@ I (..\..\src\profiles\qpp\qpps\qpps_task.h)(0x56A1BA0B)
 I (..\..\src\profiles\qpp\qpp_common.h)(0x56A1BA0B)
 I (..\..\src\app\qpps\app_qpps_task.h)(0x56A1BA0A)
 I (..\src\usr_design.h)(0x568F5225)
-F (..\src\usr_design.c)(0x568F5225)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\profiles\ota\otas -I..\..\src\app\otas --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517"-o .\obj\usr_design.o --omf_browse .\obj\usr_design.crf --depend .\obj\usr_design.d)
+F (..\src\usr_design.c)(0x56AC8319)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\profiles\ota\otas -I..\..\src\app\otas --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517"-o .\obj\usr_design.o --omf_browse .\obj\usr_design.crf --depend .\obj\usr_design.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
 I (..\..\src\app\app_env.h)(0x56A1BA0A)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DB2B78)
@@ -1409,7 +1409,7 @@ I (..\..\src\fw\smpc_task.h)(0x56A1BA0A)
 I (..\..\src\profiles\qpp\qpps\qpps.h)(0x56A1BA0B)
 I (..\..\src\profiles\qpp\qpp_common.h)(0x56A1BA0B)
 I (..\..\src\profiles\qpp\qpps\qpps_task.h)(0x56A1BA0B)
-F (..\..\src\profiles\qpp\qpps\qpps_task.c)(0x56AB3E71)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\profiles\ota\otas -I..\..\src\app\otas --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517"-o .\obj\qpps_task.o --omf_browse .\obj\qpps_task.crf --depend .\obj\qpps_task.d)
+F (..\..\src\profiles\qpp\qpps\qpps_task.c)(0x56AC516F)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\src\fw -I..\..\src\profiles -I..\..\src\profiles\qpp -I..\..\src\profiles\qpp\qpps -I..\..\src\profiles\dis\diss -I..\..\src\app -I..\..\src\app\gap -I..\..\src\app\gatt -I..\..\src\app\smp -I..\..\src\app\qpps -I..\..\src\app\diss -I..\..\src\cmsis -I..\..\src\driver -I..\..\src\lib -I..\..\src\qnevb -I..\src -I..\..\src\profiles\ota\otas -I..\..\src\app\otas --C99-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\QN9020-D__UVISION_VERSION="517"-o .\obj\qpps_task.o --omf_browse .\obj\qpps_task.crf --depend .\obj\qpps_task.d)
 I (..\..\src\app\app_config.h)(0x56AB1AE8)
 I (..\src\usr_config.h)(0x56AC3C40)
 I (..\..\src\fw\gap.h)(0x56A1BA0A)
